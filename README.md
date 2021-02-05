@@ -1,1 +1,15 @@
-# PLS-Channel
+# Information-Theoretic Security of MIMO Networks under κ-μ Shadowed Fading Channels
+This is a code pack related to the following scientific article:
+
+J. D. Vega Sánchez, D. P. Moya Osorio, F. J. López-Martínez, M. C. Paredes, and L. Urquiza-Aguiar, “Information-Theoretic Security of MIMO Networks under κ-μ Shadowed Fading Channels,” Jul., 2020, https://arxiv.org/pdf/2005.02441.pdf. [Online].
+# Abstract of Article
+This paper investigates the impact of realistic propagation conditions on the achievable secrecy performance of multiple-input multiple-output systems in the presence of an eavesdropper. Specifically, we concentrate on the κ-μ shadowed fading model because its physical underpinnings capture a wide range of propagation conditions, while, at the same time, it allows for a much better tractability than other state-of-the-art fading models. By considering transmit antenna selection and maximal ratio combining reception at the legitimate and eavesdropper’sreceiver sides, we study two relevant scenarios (i) the transmitterdoes not know the eavesdropper’s channel state information (CSI), and (ii) the transmitter has knowledge of the CSI ofthe eavesdropper link. For this purpose, we first obtain novel and tractable expressions for the statistics of the maximum of independent and identically distributed (i.i.d.) variates related to the legitimate path. Based on these results, we derive novel closed-form expressions for the secrecy outage probability (SOP) and theaverage secrecy capacity (ASC) to assess the secrecy performance in passive and active eavesdropping scenarios, respectively. Moreover, we develop analytical asymptotic expressions of the SOP and ASC at the high signal-to-noise ratio regime. In all instances,secrecy performance metrics are characterized in closed-form, without requiring the evaluation of Meijer or Fox functions. Some useful insights on how the different propagation conditions and the number of antennas impact the secrecy performance are also provided.
+# Content of Code Package
+The article contains 7 figures with analytical and simulation curves, numbered 2 to 8. Specifically, Figure2.m generates Figure 2, Figure3.m generates Figure 3, Figure4.m generates Figure 4, Figure5.m generates Figure 5, Figure6.m generates Figure 6, Figure7.m generates Figure 7, and Figure8.m generates Figure 8. For such figures, the data.zip contains all the MAT-files needed for run Figs. 2 to 8.
+
+Also, the Monte carlo (MC) simulations of all curves included in Figs. 2-8 are available in SOPMCSimulations.m and ASCMCSimulations.m (MATLAB files). Likewise, all the proposed analytical results of the paper can be found at SOPMatWolfram.nb and ASCMatWolfram.nb (Wolfram Mathematica Files). Please, note that .nb files can only be opened with the Wolfram Mathematica software; they cannot be viewed directly in this repository.
+
+
+See each file for further documentation.
+
+For any questions, please do not hesitate to contact me at the email jose.vega01@epn.edu.ec.
